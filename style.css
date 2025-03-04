@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Street';
+    src: url(font/street.otf);
+}
+
+body {
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Street';
+    color: crimson;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 174, 5);
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: black;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: darkorange;
+    position: relative;
+    background-color: black;
+}
+
+#cabeceraTabla {
+    background-image: url(img/fondocabecera.jpg);
+    background-color: rgba(0, 0, 0, 0.129);
+    background-blend-mode: multiply;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+#ken {
+    background-image: url(img/ken.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#chun {
+    background-image: url(img/ChunLi.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#zangief {
+    background-image: url(img/Zangief.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#dhalsin {
+    background-image: url(img/Dhalsim.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#ryu {
+    background-image: url(img/Ryu.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#nonda {
+    background-image: url(img/EHonda.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#blanka {
+    background-image: url(img/Blanka.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#guille {
+    background-image: url(img/Guille.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#thawk {
+    background-image: url(img/THawk.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#fellong {
+    background-image: url(img/Feilong.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#dee {
+    background-image: url(img/DeeJay.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#cammy {
+    background-image: url(img/Cammy.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#balrog {
+    background-image: url(img/Balrog.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#vega {
+    background-image: url(img/Vega.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#sagat {
+    background-image: url(img/Sagat.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+#bison {
+    background-image: url(img/MBison.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    text-align: top;
+}
+
+h2 {
+    size: 28px;
+    color: crimson;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.campoForm {
+    display: block;
+}
+
+.campoForm label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.campoForm input {
+    margin-top: 1rem;
+}
+
+fieldset {
+    margin-top: 1rem;
+}
+
+legend {
+    size: 14px;
+    font-family: 'Street';
+    color: rgb(237, 175, 5);
+}
+
+textarea {
+    width: 560px;
+
+}
+
+#enviar {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+#borrar {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.botonesFinales {
+    border: 0px solid black;
+}

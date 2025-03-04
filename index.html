@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/arcade.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>To live is to fight, to fight is to live!</h1>
+    <table>
+        <tr>
+            <td id="cabeceraTabla" colspan="4">STREET FIGHTER</td>
+        </tr>
+        <tr>
+            <td id="ken">KEN</td>
+            <td id="chun">CHUN U</td>
+            <td id="zangief">ZANGIEF</td>
+            <td id="dhalsin">DHALSIN</td>
+        </tr>
+        <tr>
+            <td id="ryu">RYU</td>
+            <td id="nonda">E NONDA</td>
+            <td id="blanka">BLANKA</td>
+            <td id="guille">GUILLE</td>
+        </tr>
+        <tr>
+            <td id="thawk">THAWK</td>
+            <td id="fellong">FELLONG</td>
+            <td id="dee">DEE JAN</td>
+            <td id="cammy">CAMMY</td>
+        </tr>
+        <tr>
+            <td id="balrog">BALROG</td>
+            <td id="vega">VEGA</td>
+            <td id="sagat">SAGAT</td>
+            <td id="bison">M BISON</td>
+        </tr>
+    </table>
+    <h2>FORMULARIO DE INSCRIPCIÓN PARA JUGAR A STREET FIGHTER</h2>
+    <form action="">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <div class="campoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="campoForm">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos">
+            </div>
+            <div class="campoForm">
+                <label for="direccion">Direccion postal:</label>
+                <input type="text" id="calle" name="calle" placeholder="Calle">
+                <input type="text" name="nº" id="numero" placeholder="Nº">
+                <input type="text" name="piso" id="piso" placeholder="Piso">
+                <input type="text" name="codigoPostal" id="codigoPostal" placeholder="Codigo Postal">
+                <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+            </div>
+            <div class="campoForm">
+                <label for="nick">Nick:</label>
+                <input type="text" name="nick" id="nick">
+            </div>
+            <div class="campoForm">
+                <label for="correo">Correo electronico:</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>SEXO USUARIO</legend>
+            <input class="sexoForm" type="radio" name="sexo" value="Hombre">Hombre
+            <input class="sexoForm" type="radio" name="sexo" value="Mujer">Mujer
+            <input class="sexoForm" type="radio" name="sexo" value="Prefiero no decir">Prefiero no decir
+        </fieldset>
+        <fieldset>
+            <label for="fecha">Fecha nacimiento:</label>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>PERSONAJES</legend>
+            <label for="personaje">Selecciona personaje:</label>
+            <select name="personaje" id="personaje">
+                <option value="1">asjfh</option>
+                <option value="2">dsfkgjfrsd</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>COMENTARIOS</legend>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </fieldset>
+        <fieldset class="botonesFinales">
+            <input type="submit" id="enviar" value="ENVIAR">
+            <input type="submit" id="borrar" value="BORRAR">
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
